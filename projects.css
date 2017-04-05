@@ -1,0 +1,103 @@
+main img{
+    width: 100%;
+}
+.pIntro{
+    color: white;
+    font-family: Roboto,sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.HandBlenderIntro{
+    margin-top: 60px;
+    background: rgba(111, 171, 211, 0.87);
+}
+.MouseIntro{
+    margin-top: 60px;
+    background: #2baf6b;
+}
+.LighterIntro{
+    margin-top: 60px;
+    background: #ffa96c;
+}
+.pIntro h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.pIntro p{
+    margin-top: 0px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.eighty {
+    width: 80%;
+    padding: 5% 10%;
+}
+.seventy {
+    width: 70%;
+    padding: 5% 15%;
+}
+.sixty {
+    width: 60%;
+    padding: 5% 20%;
+}
+
+#OneInTen{
+    display: inline;
+    width: 40%;
+    float: right;
+    padding-right: 7%;
+    margin: 0;
+}
+
+.data{
+    color: white;
+    font-family: Roboto,sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background: #2baf6b;
+    overflow: auto;
+}
+
+.data p{
+    float: left;
+    display: inline;
+    width: 40%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 7%;
+}
+
+#OldCircuit{
+    float: left;
+    width: 58%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+#TransientCircuit{
+    float: right;
+    width: 32%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+.Circuits{
+    width: 60%;
+    margin: auto;
+    background: #2baf6b;
+    border-radius: 15px;
+    color: white;
+    padding: 2% 5%;
+    overflow: auto;
+    font-family: Roboto,sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}

@@ -1,0 +1,113 @@
+/*
+.container{
+    display: grid;
+    grid-template-columns: 23.5% 32.5% 23%;
+    grid-template-rows: 80px 30px 30px 30px 30px 30px;
+    grid-gap: 10px;
+    
+}
+*/
+body{
+    margin: 0;
+}
+.header{
+    position: relative;
+    background: rgb(188, 188, 188);
+    color: white;
+    font-family: roboto, sans-serif;
+    height: 100px;
+    width: 100%;
+}
+.title{
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    font-size: 2em;
+    font-weight: 300;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.title b{
+    font-weight: 700;
+}
+nav{
+    position: absolute;
+    bottom: 34px;
+    right: 50px;
+    display: inline;
+    font-size: 1.25em;
+}
+ul{
+    display: inline;
+    list-style: none;
+    
+}
+.header li{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.header li a{
+    transition: color .5s ease;
+}
+.header li a:hover{
+    color: rgb(145, 145, 145);
+}
+main{
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+.project{
+    position: relative;
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+}
+.project img{
+    width: 100%;
+    height: auto;
+}
+
+.pTitle{
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    height:98%;
+    opacity: 0;
+    transition: opacity .75s ease;
+    width: 100%;
+    background-color: #00000088;
+
+}
+.pTitle p{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15% 5%;
+}
+.pTitle:hover{
+    opacity: 1;
+}
+
+.about{
+    width: 33%;
+    margin-right: 5%;
+    color: #bcbcbc;
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
