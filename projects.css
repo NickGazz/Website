@@ -21,13 +21,39 @@ main img{
     margin-top: 60px;
     background: #ffa96c;
 }
+.ThesisIntro{
+    margin-top: 60px;
+    background: #cc99ff;
+}
+#ThesisImportance{
+    color: #333333;
+    font-family: roboto, sans-serif;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
+#ThesisImportance b{
+    color: #cc99ff;
+}
+#Pie{
+    width: 70%;
+    margin: 20px 15%;
+}
+.Sketches{
+    width: 70%;
+    background: #cc99ff;
+    color: white;
+    padding: 2% 5%;
+    margin: -20px 10%;
+    border-radius: 15px;
+    font-family: Roboto,sans-serif;
+}
 .pIntro h2{
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-left: 20px;
 }
-
 .pIntro p{
     margin-top: 0px;
     text-align: justify;
@@ -35,7 +61,6 @@ main img{
     padding-right: 20px;
     padding-bottom: 20px;
 }
-
 .eighty {
     width: 80%;
     padding: 5% 10%;
@@ -48,7 +73,6 @@ main img{
     width: 60%;
     padding: 5% 20%;
 }
-
 #OneInTen{
     display: inline;
     width: 40%;
@@ -56,7 +80,6 @@ main img{
     padding-right: 7%;
     margin: 0;
 }
-
 .data{
     color: white;
     font-family: Roboto,sans-serif;
@@ -67,7 +90,6 @@ main img{
     background: #2baf6b;
     overflow: auto;
 }
-
 .data p{
     float: left;
     display: inline;
@@ -76,7 +98,6 @@ main img{
     text-align: justify;
     margin-top: 7%;
 }
-
 #OldCircuit{
     float: left;
     width: 58%;
