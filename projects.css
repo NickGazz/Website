@@ -21,6 +21,9 @@ main img{
     margin-top: 60px;
     background: #ffa96c;
 }
+.Thesis{
+    overflow: visible;
+}
 .ThesisIntro{
     margin-top: 60px;
     background: #cc99ff;
