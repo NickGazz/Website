@@ -140,3 +140,18 @@ footer p{
 footer .next{
     padding-left: 15%;
 }
+.Resume img{
+    width: 80%;
+    margin: 0 10%;
+}
+.Download{
+    width: 20%;
+    margin: 0 40%;
+    text-align: center;
+    padding: 2% 5%;
+    background: #277d8d;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1.25em;
+    border-radius: 15px;
+}
