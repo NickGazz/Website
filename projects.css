@@ -34,7 +34,7 @@ main img{
 }
 .ThesisIntro{
     margin-top: 60px;
-    background: #cc99ff;
+    background: #b499c6;
 }
 #ThesisImportance{
     color: #333333;
@@ -44,7 +44,7 @@ main img{
     text-align: center;
 }
 #ThesisImportance b{
-    color: #cc99ff;
+    color: #b499c6;
 }
 #Pie{
     width: 70%;
@@ -52,7 +52,7 @@ main img{
 }
 .Sketches{
     width: 70%;
-    background: #cc99ff;
+    background: #b499c6;
     color: white;
     padding: 2% 5%;
     margin: -20px 10%;
@@ -141,4 +141,27 @@ main img{
     border-radius: 20px;
     padding: 0;
     margin: 0 10%;
+}
+
+#Ollie{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-family: Roboto, sans-serif;
+    overflow: auto;
+    padding: 5%;
+}
+#Ollie h3{
+    position: absolute;
+    float: left;
+    padding: 3% 5%;
+}
+#Ollie p{
+    position: absolute;
+    float: left;
+    width: 25%;
+    padding: 6% 5%;
+}
+#Ollie img{
+    float: left;
 }
