@@ -84,7 +84,7 @@ main{
     position: absolute;
     top: 0px;
     margin: 0px;
-    height:100%;
+    height:98%;
     opacity: 0;
     transition: opacity .75s ease;
     width: 100%;
@@ -110,13 +110,29 @@ main{
     opacity: 1;
 }
 .about{
+    width: 80%;
+    margin: auto;
+    color: hsl(0, 0%, 70%);
+    font-family: Roboto, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: justify;
+}
+/*.about{
+    float: left;
     width: 33%;
     margin-left: 5%;
-    color: #bcbcbc;
+    color: hsl(0, 0%, 60%);
     font-family: Roboto, sans-serif;
     font-size: 2em;
     font-weight: 600;
 }
+.aboutPicture img{
+  width: 45%;
+  margin-right: 5%;
+  float: right;
+  border-radius: 500px;
+}*/
 .sorry{
     text-align: center;
     font-family: Roboto, sans-serif;
