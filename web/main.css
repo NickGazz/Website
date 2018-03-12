@@ -1,0 +1,140 @@
+/*Page Breaks at 806px wide*/
+
+body{
+  background-image: url(bg.jpg);
+  background-size: 100vw 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.container{
+  background-color: rgba(150, 153, 150, 0.8);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  width: 75%;
+  height: 70%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  /*background-color: #29332B;*/
+  background-color: rgba(34, 56, 39, 0.8);
+  color: #D4D4D4;
+  height: 100px;
+  padding: 0 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+header h1{
+  margin: auto 0;
+  font-size: 2em;
+}
+#distanceWrapper{
+  margin: auto 0;
+}
+#distanceWrapper form{
+  font-size: 1.5em;
+}
+#distanceWrapper select{
+  font-size: 1em;
+  color: #d4d4d4;
+  background: none;
+  border: none;
+  border-bottom: solid 1px #D4D4D4;
+}
+#distanceWrapper select:focus{
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #D4D4D4;
+}
+.event{
+  background-color: rgba(196, 196, 196, 0.75);
+  color: white;
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.mainWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 60px;
+}
+.mainWrapper h3, h2{
+  margin: .2em 0;
+  text-align: center;
+}
+.mainWrapper form{
+  display: flex;
+  flex-direction: column;
+}
+.mainWrapper form input{
+  border: none;
+  background: none;
+}
+.inputWrapper{
+  background-color: #ebebeb;
+  display: inline-block;
+  color: black;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin: auto;
+}
+.inputWrapper select{
+  color: #333;
+  background: none;
+  border: none;
+}
+.inputWrapper select:focus{
+  border: none;
+  outline: none;
+}
+.inputWrapper input:focus{
+  border: none;
+  outline: none;
+}
+
+#swim{
+  border-top: solid 5px #3094b6;
+  /*background-image: url("swim.jpg");
+  background-color: #3094b6;
+  background-color: #287E86;*/
+}
+#bike{
+  border-top: solid 5px #9f1f7c;
+  /*background-color: #7f557d;
+  background-color: #9f1f7c;
+  background-image: url("bike.jpg");*/
+}
+#run{
+  border-top: solid 5px #de3939;
+  /*background-color: #de3939;
+  background-color: #F0756E;
+  background-image: url("run.jpg");*/
+}
+#t1, #t2, #total{
+  border-top: solid 5px hsl(130, 2%, 20%);
+  margin-top: 30px;
+}
+.distance{
+  width: 2.5em;
+}
+.hourPlace {
+  width: .65em;
+}
+.minPlace{
+  width: 1.2em;
+}
+.secPlace, #bp{
+  width: 2.6em;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;

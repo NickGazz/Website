@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tirathlon Time Calculator</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Triathlon Pace Calculator</h1>
+      <div id="distanceWrapper">
+        <form>
+          Event:
+          <select id="distanceSelect" class="distanceSelect">
+            <<option value="none"></option>
+            <option value="sprint">Sprint</option>
+            <option value="olympic">Olympic</option>
+            <option value="half">Half Iron</option>
+            <option value="full">Ironman</option>
+          </select>
+        </form>
+      </div>
+    </header>
+    <div class="mainWrapper">
+      <div id="swim" class="event">
+        <h2>Swim</h2>
+        <form>
+          <h3>Distance:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" name="sd" id="sd" class="distance">
+            <select id="sdu" name="distance">
+              <option value="miles">Miles</option>
+              <option value="yards">Yards</option>
+              <option value="meters">Meters</option>
+            </select>
+          </div>
+          <h3>Pace:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="00" id="spm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="sps" class="secPlace">
+            <select id="spu" name="pace">
+              <option value="yards">/100 yards</option>
+              <option value="meters">/100 meters</option>
+            </select>
+          </div>
+          <h3>Time:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" id="sth" class="hourPlace"> :
+            <input type="number" placeholder="00" id="stm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="sts" class="secPlace">
+          </div>
+          <!-- <input type="submit" id="swimSubmit"> -->
+        </form>
+      </div>
+      <div id="bike" class="event">
+        <h2>Bike</h2>
+        <form>
+          <h3>Distance:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" name="bd" id="bd" class="distance">
+            <select id="bdu" name="distance">
+              <option value="miles">Miles</option>
+              <option value="kilometers">Kilometers</option>
+            </select>
+          </div>
+          <h3>Pace:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="00.00" id="bp">
+            <select id="bpu" name="pace">
+              <option value="miles">MPH</option>
+              <option value="kilometers">KPH</option>
+            </select>
+          </div>
+          <h3>Time:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" id="bth" class="hourPlace"> :
+            <input type="number" placeholder="00" id="btm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="bts" class="secPlace">
+          </div>
+          <!-- <input type="submit" id="bikeSubmit"> -->
+        </form>
+      </div>
+      <div id="run" class="event">
+        <h2>Run</h2>
+        <form>
+          <h3>Distance:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" name="rd" id="rd" class="distance">
+            <select id="rdu" name="distance">
+              <option value="miles">Miles</option>
+              <option value="kilometers">Kilometers</option>
+            </select>
+          </div>
+          <h3>Pace:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="00" id="rpm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="rps" class="secPlace">
+            <select id="rpu" name="pace">
+              <option value="miles">Minutes per mile</option>
+              <option value="kilometers">Minutes per kilometer</option>
+            </select>
+          </div>
+          <h3>Time:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" id="rth" class="hourPlace"> :
+            <input type="number" placeholder="00" id="rtm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="rts" class="secPlace">
+          </div>
+          <!-- <input type="submit" id="runSubmit"> -->
+        </form>
+      </div>
+      <div id="t1" class="event">
+        <h2>Transition 1</h2>
+        <form>
+          <h3>Time:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" id="1th" class="hourPlace"> :
+            <input type="number" placeholder="00" id="1tm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="1ts" class="secPlace">
+          </div>
+          <!-- <input type="submit" id="runSubmit"> -->
+        </form>
+      </div>
+      <div id="t2" class="event">
+        <h2>Transition 2</h2>
+        <form>
+          <h3>Time:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="0" id="2th" class="hourPlace"> :
+            <input type="number" placeholder="00" id="2tm" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="2ts" class="secPlace">
+          </div>
+          <!-- <input type="submit" id="runSubmit"> -->
+        </form>
+      </div>
+      <div id="total" class="event">
+        <h2>Total</h2>
+        <form>
+          <h3>Time:</h3>
+          <div class="inputWrapper">
+            <input type="number" placeholder="00" id="totalTimeHour" class="minPlace"> :
+            <input type="number" placeholder="00" id="totalTimeMin" class="minPlace"> :
+            <input type="number" placeholder="00.00" id="totalTimeSec" class="secPlace">
+          </div>
+          <!-- <input type="submit" id="runSubmit"> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>
