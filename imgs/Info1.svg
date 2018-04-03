@@ -1,48 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="713.666" height="471.595">
-  <path fill="#172E55" d="M299.77 139.428l-.595 85.546-14.58-7.509.61-87.221 14.565 9.184z"/>
-  <path fill="#1F3F6D" d="M429.78 132.588l-130.011 6.84-14.489-9.14 130-6.839 1.509.96.02 1.494-1.689-1.126-121.299 7.5 7.37 4.881 123.579-5.949 2.7-.081 2.31 1.46z"/>
-  <path fill="#E2E2CF" d="M424.77 131.209l-124.299 6.193-8.866-5.613 123.515-7.012 9.65 6.432z"/>
-  <path fill="#285095" d="M429.08 219.844l-129.91 5.13.59-85.55 130.02-6.84z"/>
-  <path fill="#416282" d="M299.175 224.974l-.8 114.911-14.49-9.14.71-113.28 14.58 7.509z"/>
-  <path fill="#6191C1" d="M429.08 219.844l-.61 113.04-130.09 7 .79-114.91z"/>
-  <text transform="matrix(1.1118 -.0345 0 1 311.8 199.248)" fill="#FFF" font-family="'Lato-Regular'" font-size="48">36%</text>
-  <text transform="matrix(1 -.0345 0 1 314.19 220.087)" fill="#FFF" font-family="'Lato-Regular'" font-size="13">National Average</text>
-  <g>
-    <path fill="#172E55" d="M499.33 139.71l-.595 85.546-14.58-7.509.61-87.221 14.565 9.184z"/>
-    <path fill="#1F3F6D" d="M629.341 132.871l-130.011 6.84-14.488-9.14 130-6.839 1.509.96.02 1.493-1.688-1.126-121.301 7.501 7.37 4.882 123.578-5.949 2.7-.081 2.311 1.459z"/>
-    <path fill="#E2E2CF" d="M624.33 131.492l-124.299 6.193-8.866-5.612 123.516-7.013 9.649 6.432z"/>
-    <path fill="#285095" d="M628.641 220.126l-129.91 5.13.59-85.55 130.021-6.84-.701 87.26z"/>
-    <path fill="#416282" d="M498.735 225.256l-.8 114.911-14.49-9.139.71-113.281 14.58 7.509z"/>
-    <path fill="#6191C1" d="M628.641 220.126l-.61 113.041-130.09 7 .79-114.911 129.91-5.13z"/>
-    <g fill="#FFF" font-family="'Lato-Regular'">
-      <text transform="matrix(1.1118 -.0345 0 1 511.36 199.531)" font-size="48">56%</text>
-			<text transform="matrix(1 -.0345 0 1 504.514 220.689)" font-size="13">Children who don&apos;t</text>
-      <text transform="matrix(1 -.0345 0 1 509.128 236.13)" font-size="13">qualify for free or</text>
-      <text transform="matrix(1 -.0345 0 1 512.19 251.624)" font-size="13">reduced lunches</text>
+  <svg xmlns="http://www.w3.org/2000/svg" width="713.666" height="471.595">
+    <text transform="translate(51.274 25.5)" fill="#FFF" font-family="'Volkhov'" font-size="30">
+      <tspan x="0" y="0" >Only 36% of 4th graders across the U.S. are </tspan>
+      <tspan x="44.684" y="36">at or above proficient reading levels</tspan>
+    </text>
+    <g>
+      <path fill="#172E55" d="M299.771 139.709l-.595 126.833-14.58-7.51.61-128.506 14.565 9.183z"/>
+      <path fill="#1F3F6D" d="M429.781 132.869l-130.011 6.84-14.488-9.14 130-6.839 1.509.96.02 1.493-1.688-1.126-121.301 7.501 7.37 4.882 123.578-5.949 2.7-.081 2.311 1.459z"/>
+      <path fill="#E2E2CF" d="M424.771 131.49l-124.299 6.193-8.866-5.612 123.516-7.013 9.649 6.432z"/>
+      <path fill="#285095" d="M429.081 261.411l-129.91 5.131.59-126.836 130.021-6.84-.701 128.545z"/>
+      <path fill="#416282" d="M299.176 266.542l-.8 73.625-14.49-9.141.71-71.994 14.58 7.51z"/>
+      <path fill="#6191C1" d="M429.081 261.411l-.61 71.754-130.09 7 .79-73.623 129.91-5.131z"/>
     </g>
-  </g>
-  <g>
-    <path fill="#172E55" d="M100.21 139.71l-.595 157.666-14.58-7.509.61-159.341 14.565 9.184z"/>
-    <path fill="#1F3F6D" d="M230.221 132.87l-130.011 6.84-14.488-9.14 130-6.839 1.509.96.02 1.493-1.688-1.126-121.302 7.502 7.37 4.882 123.578-5.949 2.7-.081 2.312 1.458z"/>
-    <path fill="#E2E2CF" d="M225.21 131.491l-124.299 6.193-8.866-5.612 123.516-7.013 9.649 6.432z"/>
-    <path fill="#285095" d="M229.521 292.246l-129.91 5.13.59-157.67 130.021-6.84-.701 159.38z"/>
-    <path fill="#416282" d="M99.615 297.376l-.8 42.791-14.49-9.14.71-41.16 14.58 7.509z"/>
-    <path fill="#6191C1" d="M229.521 292.246l-.61 40.92-130.09 7 .79-42.79 129.91-5.13z"/>
-    <g fill="#FFF" font-family="'Lato-Regular'">
-      <text transform="matrix(1.1118 -.0345 0 1 112.239 199.53)" font-size="48">21%</text>
-      <text transform="matrix(1 -.0345 0 1 105.393 220.689)" font-size="13">Children who qualify</text>
-      <text transform="matrix(1 -.0345 0 1 110.776 236.102)" font-size="13">for free or reduced</text>
-      <text transform="matrix(1 -.0345 0 1 142.397 250.611)" font-size="13">lunches</text>
+    <g>
+      <path fill="#172E55" d="M499.33 139.71l-.595 85.546-14.58-7.509.61-87.221 14.565 9.184z"/>
+      <path fill="#1F3F6D" d="M629.341 132.871l-130.011 6.84-14.488-9.14 130-6.839 1.509.96.02 1.493-1.688-1.126-121.301 7.501 7.37 4.882 123.578-5.949 2.7-.081 2.311 1.459z"/>
+      <path fill="#E2E2CF" d="M624.33 131.492l-124.299 6.193-8.866-5.612 123.516-7.013 9.649 6.432z"/>
+      <path fill="#285095" d="M628.641 220.126l-129.91 5.13.59-85.55 130.021-6.84-.701 87.26z"/>
+      <path fill="#416282" d="M498.735 225.256l-.8 114.911-14.49-9.139.71-113.281 14.58 7.509z"/>
+      <path fill="#6191C1" d="M628.641 220.126l-.61 113.041-130.09 7 .79-114.911 129.91-5.13z"/>
     </g>
-  </g>
-  <path fill="none" d="M42.333 1.5h629v63.77h-629z"/>
-  <text transform="translate(51.274 25.5)" fill="#FFF" font-family="'Volkhov-Regular'" font-size="30">
-    <tspan x="0" y="0" >Only 36% of 4th graders across the U.S. are </tspan>
-		<tspan x="44.684" y="36">at or above proficient reading levels</tspan>
-  </text>
-  <path fill="none" d="M0 416.251h713.666v49.499H0z"/>
-  <text transform="translate(8.456 435.45)" fill="#FFF" font-family="'Volkhov-Regular'" font-size="24">
-    <tspan x="0" y="0">With only 21% of 4th graders who qulaify for free or reduced </tspan>
-		<tspan x="52.703" y="28.801">lunches being at or above proficient reading levels</tspan>
-  </text>
+    <g>
+      <path fill="#172E55" d="M100.21 139.71l-.595 157.666-14.58-7.509.61-159.341 14.565 9.184z"/>
+      <path fill="#1F3F6D" d="M230.221 132.87l-130.011 6.84-14.488-9.14 130-6.839 1.509.96.02 1.493-1.688-1.126-121.302 7.502 7.37 4.882 123.578-5.949 2.7-.081 2.312 1.458z"/>
+      <path fill="#E2E2CF" d="M225.21 131.491l-124.299 6.193-8.866-5.612 123.516-7.013 9.649 6.432z"/>
+      <path fill="#285095" d="M229.521 292.246l-129.91 5.13.59-157.67 130.021-6.84-.701 159.38z"/>
+      <path fill="#416282" d="M99.615 297.376l-.8 42.791-14.49-9.14.71-41.16 14.58 7.509z"/>
+      <path fill="#6191C1" d="M229.521 292.246l-.61 40.92-130.09 7 .79-42.79 129.91-5.13z"/>
+    </g>
+    <g fill="#FFF" font-family="'Lato'" >
+      <g font-size="48">
+        <text transform="matrix(1.1118 -.0345 0 1 311.8 199.248)" >36%</text>
+        <text transform="matrix(1.1118 -.0345 0 1 511.36 199.531)">56%</text>
+        <text transform="matrix(1.1118 -.0345 0 1 112.239 199.53)">21%</text>
+      </g>
+      <g font-size="13">
+        <text transform="matrix(1 -.0345 0 1 504.514 220.689)">Children who don&apos;t</text>
+        <text transform="matrix(1 -.0345 0 1 509.128 236.13)">qualify for free or</text>
+        <text transform="matrix(1 -.0345 0 1 512.19 251.624)">reduced lunches</text>
+
+        <text transform="matrix(1 -.0345 0 1 314.19 220.087)">National Average</text>
+
+        <text transform="matrix(1 -.0345 0 1 105.393 220.689)">Children who qualify</text>
+        <text transform="matrix(1 -.0345 0 1 110.776 236.102)">for free or reduced</text>
+        <text transform="matrix(1 -.0345 0 1 142.397 250.611)">lunches</text>
+      </g>
+    </g>
+    <text transform="translate(8.456 435.45)" fill="#FFF" font-family="'Volkhov'" font-size="24">
+      <tspan x="0" y="0">With only 21% of 4th graders who qulaify for free or reduced </tspan>
+      <tspan x="52.703" y="28.801">lunches being at or above proficient reading levels</tspan>
+    </text>
+  </svg>
 </svg>
