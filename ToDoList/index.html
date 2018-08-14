@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta view -->
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>To Do</h1>
+      <form id="quickAdd">
+        <input type="text" name="quickAdd" placeholder="New Task"/>
+        <select name="quickAddList" id="quickAddList">
+          <option value="0">Sample List</option>
+        </select>
+        <input type="submit" name="newTask">
+      </form>
+      <button value="newList" name="newList" class="newList">Create New List</button>
+      <svg value="clear" id="button_clearLocal">
+        <ellipse ry="12" rx="12" cx="12" cy="12" fill="white" fill-opacity=".75"/>
+        <g stroke-width="2.5" stroke="#5a6074">
+          <line y1="7" x1="7" y2="17" x2="17"></line>
+          <line y1="7" x1="17" y2="17" x2="7"></line>
+        </g>
+      </svg>
+    </header>
+    <main>
+      <div id="newCard" class="card">
+        <h2>Create<br/>New List</h2>
+      </div>
+    </main>
+    <template id="templateCard">
+      <div  id="newList" class="card">
+        <h2>
+          <span>List Name</span>
+          <button class="cardButton">
+        </h2>
+        <input type="text" placeholder="Add New Task"class="newTask"/>
+      </div>
+    </template>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
