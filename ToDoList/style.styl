@@ -1,0 +1,120 @@
+headerColor = white
+headerBG = #5b6075
+flex($d = 0, $w = 0, $j = 0, $a=0)
+  display: flex
+  if $d
+    flex-direction: $d
+  if $w
+    flex-wrap: $w
+  if $j
+    justify-content: $j
+  if $a
+    align-items: $a
+size($width, $height = $width, $circle = false)
+  width: $width
+  height: $height
+  if $circle
+    border-radius: ($width/.5)
+
+html
+  box-sizing border-box
+*, *:before, *:after
+  box-sizing inherit
+  font-family sans-serif
+
+body
+  background-color: #f5f5f5
+  margin: 0
+header
+  flex(row,,,center)
+  background headerBG
+  color  headerColor
+  size(100%, 192px)
+  padding 0 7.8% 36px
+  margin 0
+  h1
+    margin 0 80px 0 80px
+  .newList
+    background: none;
+    color: headerColor
+    border: 2px solid #ccc;
+    padding: 8px 8px 6px 6px;
+    border-radius: 8px;
+    margin-left: 80px;
+    font-size: 14px;
+#quickAdd
+  padding 8px
+  border-radius 8px
+  border 2px solid #ccc
+  input
+    border  0
+    font-size 14px
+    background none
+    color headerColor
+    [type="text"]
+      padding: 0 8px
+    &::placeholder
+      color headerColor
+  select
+    border  0
+    font-size 14px
+    background none
+    color headerColor
+    padding: 0 5px
+    &:active, &:hover, &:focus
+      outline: none
+    option
+      color: headerBG
+main
+  flex(,wrap,)
+  width: 80%;
+  margin: -92px auto 65px;
+.card
+  width: 28.3%;
+  margin: 2.5%;
+  background: #FFF;
+  box-shadow: 0px 2px 6px 1px alpha(black, .2);
+  border-top: 6px solid #3bf;
+  border-radius: 5px;
+  h2
+    position: relative;
+    margin: 0;
+    font-weight: normal;
+    color: #3bf;
+    padding: 26px 0 12px 20px;
+
+    span:focus
+      padding: 3px 10px 0 10px;
+    .cardButton
+      position: absolute;
+      right: 0;
+      size(12px,,true)
+      padding: 0;
+      margin: 5px 20px 0 0;
+      border: 0;
+      background-color: #b9c1c6;
+  input
+    margin: 10px 12px 22px
+    padding: 6px 10px
+    color: hsl(240, 0%, 46%)
+    border: 0
+  &.newList
+    flex(,,center,center)
+    border-color: #b0b0b0
+    min-height: 129px
+    h2
+      color: gray
+      text-align: center
+      padding: 0 0 10px 0
+      border: 0
+.task
+  padding: 16px 10px;
+  margin: 0 12px;
+  color: hsl(240, 0%, 46%);
+  display: block;
+#button_clearLocal
+  position: absolute
+  top: 40px
+  right: 40px
+  border: 0
+  size(24px)
