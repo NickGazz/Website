@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <style>
+    #Countries{
+      fill: #b6b6b6;
+      stroke: #FFFFFF
+    }
+    #Other{
+      fill: #e5e5e5;
+      stroke: #FFFFFF;
+    }
+    .country:hover{
+      fill: #da4041;
+    }
+    .selectedCountry{
+      fill: #da4041;
+    }
+    .hidden{
+      display: none;
+    }
+    #Other{
+      fill: #e5e5e5;
+      stroke: #FFFFFF;
+    }
+    .mapWrapper{
+      width: 80%;
+      margin: 15px auto;
+    }
+</style>
+
+<div class="mapWrapper">
+  <div class="contactInfo" style="display:hidden">
+
+  </div>
+  <img class="svg" src="worldMap.svg">
+<div class="countryTextWrapper"><div id="JapanText" class="countryText hidden">Japan test</div><div id="ChinaText" class="countryText hidden">China test</div><div id="UAEText" class="countryText hidden">UAE test</div><div id="AustraliaText" class="countryText hidden">Australia test</div><div id="UKText" class="countryText hidden">UK test</div><div id="RussiaText" class="countryText hidden">Russia test</div><div id="EuropeText" class="countryText hidden">Europe test</div><div id="CanadaText" class="countryText hidden">Canada test</div><div id="MexicoText" class="countryText hidden">Mexico test</div><div id="Latin_America1Text" class="countryText hidden">Latin America1 test</div><div id="United_StatesText" class="countryText hidden">United States test</div><div id="HongKongText" class="countryText hidden">HongKong test</div><div id="BermudaText" class="countryText hidden">Bermuda test</div><div id="Latin_AmericaText" class="countryText hidden">Latin America test</div><div id="SingaporText" class="countryText hidden">Singapor test</div></div></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $('img.svg').each(function() {
+      var $img = $(this);
+      var imgURL = $img.attr('src');
+      var attributes = $img.prop("attributes");
+      $.get(imgURL, function(data) {
+        // Get the SVG tag, ignore the rest
+        var $svg = jQuery(data).find('svg');
+        // Remove any invalid XML tags
+        $svg = $svg.removeAttr('xmlns:a');
+
+        // Loop through IMG attributes and apply on SVG
+        $.each(attributes, function() {
+        $svg.attr(this.name, this.value);
+      });
+      // Replace IMG with SVG
+      $img.replaceWith($svg);
+      $('svg style').remove();
+      $('#Countries').children().each(function(){
+        let name = this.id.replace('_', ' ');
+        $('.countryTextWrapper').append('<div id="'+this.id+'Text" class="countryText hidden">'+name+' test</div>');
+      });
+      }, 'xml');
+    });
+    $('.mapWrapper').on('click', '.country', function(){
+      let countryID = $("#"+this.id);
+      let countryText = $("#"+this.id+"Text");
+      if (countryText.css('display') == 'none'){
+        $('.countryText').each( function(){ $(this).addClass('hidden')});
+        $('.country').each(function(){$(this).css('fill','')});
+        countryID.css('fill', '#A9585C');
+        countryText.removeClass('hidden');
+        // countryClass.css('display','block');
+      } else {
+        countryID.css('fill','');
+        countryText.addClass('hidden');
+      }
+    });
+</script>
+
+</body>
+</html>
+<style>
